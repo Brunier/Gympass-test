@@ -1,7 +1,7 @@
 {
   "name": "create-next-example-app",
   "scripts": {
-    "dev": "next",
+    "dev": "NODE_ENV=dev next",
     "build": "next build",
     "start": "next start",
     "test": "jest",
