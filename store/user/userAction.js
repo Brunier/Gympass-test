@@ -39,9 +39,9 @@ export function getRepos(userName, callback, sort = "updated", direction = "desc
                     dispatch(setImg(response.data[0].owner.avatar_url));
 
                     setTimeout(() => {
-                         dispatch(setLoading(false));
+                         //dispatch(setLoading(false));
                          dispatch(userError(null));
-                     }, 1000)
+                     }, 10000)
                     callback();
                 }
             },

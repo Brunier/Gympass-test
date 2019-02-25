@@ -14,6 +14,10 @@ export class IndexPage extends React.Component {
         super(props);
     }
 
+    componentDidMount() {
+        this.props.actions.user.setLoading(false);
+    }
+
     setUser = (name) => {
         this.props.actions.user.setName(name);
 
