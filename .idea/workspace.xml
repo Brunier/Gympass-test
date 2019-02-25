@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a16b5281-e726-4138-ad6f-ce545660f33b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -44,8 +43,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="440">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -87,7 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>React</find>
       <find>enzyme</find>
       <find>UserRepo</find>
       <find>props</find>
@@ -117,6 +115,7 @@
       <find>next</find>
       <find>babel</find>
       <find>babel-next</find>
+      <find>^</find>
     </findStrings>
     <replaceStrings>
       <replace>user</replace>
@@ -126,8 +125,8 @@
       <replace>ReportDetails</replace>
       <replace>UserRepos</replace>
       <replace>userError</replace>
-      <replace>Search</replace>
       <replace>item</replace>
+      <replace>Search</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -411,12 +410,12 @@
       <workItem from="1550943580823" duration="1286000" />
       <workItem from="1550946742111" duration="34822000" />
       <workItem from="1551019771667" duration="22569000" />
-      <workItem from="1551047323897" duration="22354000" />
+      <workItem from="1551047323897" duration="22604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82161000" />
+    <option name="totallyTimeSpent" value="82411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -938,8 +937,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="440">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
