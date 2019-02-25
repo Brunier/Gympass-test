@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserSearch Test Suite Snapshot 1`] = `
+<div
+  className="sc-ifAKCX hIyfxW"
+>
+  <div
+    className="sc-bxivhb hHKjDW"
+    onClick={[Function]}
+  >
+    <h1
+      className="sc-bdVaJa eiPDuz"
+    >
+      mindbody-api
+    </h1>
+    <p
+      className="sc-bwzfXH fRwYcu"
+      height={96}
+    >
+      A Ruby interface to the MindBody API v0.5
+    </p>
+    <span
+      className="sc-htpNat ivUPnB"
+      fontSize={14}
+    >
+       
+      Sex, 13 de Abr de 2018 às 18:52
+    </span>
+    <span
+      className="sc-htpNat ivUPnB"
+      fontSize={14}
+    >
+       - 
+    </span>
+    <span
+      className="sc-htpNat ivUPnB"
+      fontSize={14}
+    >
+      Ruby
+    </span>
+  </div>
+  <div
+    className="sc-bxivhb hHKjDW"
+    onClick={[Function]}
+  >
+    <h1
+      className="sc-bdVaJa eiPDuz"
+    >
+      rails-intl-tel-input
+    </h1>
+    <p
+      className="sc-bwzfXH fRwYcu"
+      height={96}
+    >
+      Integrate with intl-tel-input to provide international telephone numbers input and form helper.
+    </p>
+    <span
+      className="sc-htpNat ivUPnB"
+      fontSize={14}
+    >
+       
+      Sex, 16 de Mar de 2018 às 09:40
+    </span>
+    <span
+      className="sc-htpNat ivUPnB"
+      fontSize={14}
+    >
+       - 
+    </span>
+    <span
+      className="sc-htpNat ivUPnB"
+      fontSize={14}
+    >
+      JavaScript
+    </span>
+  </div>
+  <div
+    className="sc-bxivhb hHKjDW"
+    onClick={[Function]}
+  >
+    <h1
+      className="sc-bdVaJa eiPDuz"
+    >
+      devise
+    </h1>
+    <p
+      className="sc-bwzfXH fRwYcu"
+      height={96}
+    >
+      Flexible authentication solution for Rails with Warden.
+    </p>
+    <span
+      className="sc-htpNat ivUPnB"
+      fontSize={14}
+    >
+       
+      Ter, 16 de Jan de 2018 às 22:17
+    </span>
+    <span
+      className="sc-htpNat ivUPnB"
+      fontSize={14}
+    >
+       - 
+    </span>
+    <span
+      className="sc-htpNat ivUPnB"
+      fontSize={14}
+    >
+      Ruby
+    </span>
+  </div>
+  <div
+    className="sc-bxivhb hHKjDW"
+    onClick={[Function]}
+  >
+    <h1
+      className="sc-bdVaJa eiPDuz"
+    >
+      AvaTax-REST-V2-Ruby-SDK
+    </h1>
+    <p
+      className="sc-bwzfXH fRwYcu"
+      height={96}
+    >
+      Ruby SDK for AvaTax REST v2
+    </p>
+    <span
+      className="sc-htpNat ivUPnB"
+      fontSize={14}
+    >
+       
+      Ter, 9 de Jan de 2018 às 21:23
+    </span>
+    <span
+      className="sc-htpNat ivUPnB"
+      fontSize={14}
+    >
+       - 
+    </span>
+    <span
+      className="sc-htpNat ivUPnB"
+      fontSize={14}
+    >
+      Ruby
+    </span>
+  </div>
+</div>
+`;

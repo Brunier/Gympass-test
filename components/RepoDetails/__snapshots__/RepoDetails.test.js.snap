@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoDetails Suite Snapshot 1`] = `
+<div
+  className="sc-bxivhb kTkIlg"
+>
+  <div>
+    <div>
+      <h1
+        className="sc-bwzfXH fxxPOC"
+        display="inline"
+        fontSize={30}
+      >
+        <a
+          href="https://api.github.com/repos/Gympass/interview-test"
+          target="_blank"
+        >
+          interview-test
+        </a>
+      </h1>
+      <p
+        className="sc-htpNat fcalhj"
+      >
+        Interview test project
+      </p>
+    </div>
+    <div>
+      <span
+        className="sc-bdVaJa iDsqdx"
+        fontSize={16}
+      >
+        Thu, Jan 24, 2019 12:51 AM
+      </span>
+      <span
+        className="sc-bdVaJa iDsqdx"
+        fontSize={16}
+      >
+         - 
+      </span>
+      <span
+        className="sc-bdVaJa iDsqdx"
+        fontSize={16}
+      >
+        Javascript
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Commit Test Suite Snapshot 1`] = `
+<div
+  className="sc-bxivhb bqVlmP"
+>
+  <div>
+    <h1
+      className="sc-bwzfXH bJRMPj"
+      fontSize={18}
+    >
+      <a
+        href="https://github.com/Gympass/react-native-svg-uri/commit/942a765b53662936679b8119ed4533d972298d2a"
+        target="_blank"
+      >
+        942a765b53662936679b8119ed4533d972298d2a
+      </a>
+    </h1>
+    <p
+      className="sc-htpNat jewUiJ"
+      height={120}
+    >
+      Workaround empty child
+    </p>
+  </div>
+  <div>
+    <span
+      className="sc-bdVaJa iDsqdx"
+      fontSize={16}
+    >
+      Pedro Bullo Junior
+    </span>
+    <span
+      className="sc-bdVaJa iDsqdx"
+      fontSize={16}
+    >
+       - 
+    </span>
+    <span
+      className="sc-bdVaJa iDsqdx"
+      fontSize={16}
+    >
+      Mon, Jan 21, 2019 8:59 PM
+    </span>
+  </div>
+</div>
+`;

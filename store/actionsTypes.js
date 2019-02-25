@@ -1,0 +1,10 @@
+//USER
+export const GET_USER_NAME = 'GET_USER_NAME';
+export const GET_USER_REPOS = 'GET_USER_REPOS';
+export const GET_USER_IMG = 'GET_USER_IMG';
+export const GET_USER_LOADING = 'GET_USER_LOADING';
+export const USER_ERROR = 'USER_ERROR';
+
+//REPOSITORY
+export const SELECT_REPOSITORY = 'SELECT_REPOSITORY';
+export const SET_COMMITS = 'SET_COMMITS';

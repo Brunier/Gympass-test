@@ -1,0 +1,27 @@
+{
+  "sha": "942a765b53662936679b8119ed4533d972298d2a",
+  "commit": {
+    "author": {
+      "name": "Pedro Bullo Junior",
+      "email": "pedro.bj@hotmail.com",
+      "date": "2019-01-21T22:59:19Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2019-01-21T22:59:19Z"
+    },
+    "message": "Workaround empty child",
+    "tree": {
+      "sha": "81c34b008db2a4fda4df20404a498e0127e4a817",
+      "url": "https://api.github.com/repos/Gympass/react-native-svg-uri/git/trees/81c34b008db2a4fda4df20404a498e0127e4a817"
+    },
+    "url": "https://api.github.com/repos/Gympass/react-native-svg-uri/git/commits/942a765b53662936679b8119ed4533d972298d2a",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid"
+    }
+  },
+  "url": "https://github.com/Gympass/react-native-svg-uri/commit/942a765b53662936679b8119ed4533d972298d2a"
+}

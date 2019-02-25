@@ -1,0 +1,32 @@
+{
+  "repos": [
+    {
+      "name": "mindbody-api",
+      "description": "A Ruby interface to the MindBody API v0.5",
+      "url": "https://api.github.com/repos/Gympass/mindbody-api",
+      "commits_url": "https://api.github.com/repos/Gympass/mindbody-api/commits",
+      "created_at": "2018-04-09T17:04:01Z",
+      "updated_at": "2018-04-13T21:52:29Z",
+      "language": "Ruby",
+      "stars": 0,
+      "watchers": 0,
+      "forks": 0
+    },
+    {
+      "name": "rails-intl-tel-input",
+      "description": "Integrate with intl-tel-input to provide international telephone numbers input and form helper.",
+      "url": "https://api.github.com/repos/Gympass/rails-intl-tel-input",
+      "commits_url": "https://api.github.com/repos/Gympass/rails-intl-tel-input/commits",
+      "created_at": "2017-11-14T17:27:57Z",
+      "updated_at": "2018-03-16T12:40:19Z",
+      "language": "JavaScript",
+      "stars": 0,
+      "watchers": 0,
+      "forks": 0
+    }
+  ],
+  "name": "gympass",
+  "img": "https://avatars3.githubusercontent.com/u/26311162?v=4",
+  "loading": false,
+  "notFound": false
+}

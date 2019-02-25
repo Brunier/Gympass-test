@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDetails Test Suite Snapshot 1`] = `
+<div
+  className="sc-bwzfXH cibgGO"
+>
+  <div>
+    <div>
+      <img
+        src="https://avatars3.githubusercontent.com/u/26311162?v=4"
+      />
+    </div>
+    <div>
+      <span
+        className="sc-bdVaJa fngNYB"
+      >
+        gympass
+      </span>
+      <span
+        className="sc-bdVaJa fngNYB"
+      >
+         - 
+      </span>
+      <span
+        className="sc-bdVaJa fngNYB"
+      >
+        Mostrando 
+        2
+         repositórios no total
+      </span>
+    </div>
+  </div>
+</div>
+`;

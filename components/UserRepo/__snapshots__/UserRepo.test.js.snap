@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserSearch Test Suite Snapshot 1`] = `
+<div
+  className="sc-bxivhb hHKjDW"
+>
+  <h1
+    className="sc-bdVaJa eiPDuz"
+  >
+    interview-test
+  </h1>
+  <p
+    className="sc-bwzfXH fRwYcu"
+    height={96}
+  >
+    Interview test project
+  </p>
+  <span
+    className="sc-htpNat ivUPnB"
+    fontSize={14}
+  >
+     
+    Qui, 24 de Jan de 2019 às 00:51
+  </span>
+  <span
+    className="sc-htpNat ivUPnB"
+    fontSize={14}
+  >
+     - 
+  </span>
+  <span
+    className="sc-htpNat ivUPnB"
+    fontSize={14}
+  >
+    Javascript
+  </span>
+</div>
+`;
