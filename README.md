@@ -19,7 +19,11 @@
 
 ## Storybook
  Para visualizar os componentes no storybook, executar o comando
-`npm run storybook`.
+`npm run storybook`
+
+## Cypress 
+ Cypress é um framework para testar aplicação de ponta a ponta, para visualizar é só executar o comando
+`npm run cypress:open`
 
 ## ES6
 Arrow function: é uma ótima maneira de escrever uma função sem ter que sujar muito o codigo, além do seu principal benefício que é evitar a utilização do this da forma errada.
