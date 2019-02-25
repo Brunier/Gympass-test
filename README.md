@@ -7,10 +7,10 @@
  Instalar packages do node
  `npm install`
  
- E iniciar o projeto
+ Iniciar o projeto com
  `npm run dev`
  
- Ir para url
+ E ir para url
  `localhost:3000`
 
 ## Testes
