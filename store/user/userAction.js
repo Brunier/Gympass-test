@@ -12,9 +12,7 @@ export function getRepos(userName, callback, sort = "updated", direction = "desc
         const request = axios({
             method: 'GET',
             url: getReposApi(userName, sort, direction),
-            headers: {
-                "Authorization": "token 73a555b6a8eb86e8786f42c8d8ca6912dbb8f597"
-            }
+            headers: []
         });
 
         return request.then(

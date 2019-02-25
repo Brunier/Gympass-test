@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a16b5281-e726-4138-ad6f-ce545660f33b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/RepoDetails/RepoDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/RepoDetails/RepoDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Search/__snapshots__/UserSearch.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UserRepo/UserRepo.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserRepo/UserRepo.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UserRepo/__snapshots__/UserRepo.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserRepo/__snapshots__/UserRepo.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UserRepos/UserRepos.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserRepos/UserRepos.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UserRepos/__snapshots__/UserRepos.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserRepos/__snapshots__/UserRepos.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UserSearch/UserSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UserSearch/UserSearch.story.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.story.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UserSearch/UserSearch.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/commits.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/commits.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/actionsTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/actionsTypes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/repository/repositoryAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/repository/repositoryAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/repository/repositoryReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/repository/repositoryReducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/user/userAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/user/userAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/apiRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/apiRoutes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,59 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="31" selection-start-line="31" selection-end-line="32" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Search.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/Search/Search.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="repositoryAction.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/repository/repositoryAction.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Search.story.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/Search/Search.story.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="userAction.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/store/user/userAction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="210">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -92,56 +29,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="apiRoutes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/apiRoutes.js">
+      <file leaf-file-name="repositoryAction.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/store/repository/repositoryAction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commits.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/commits.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RepoDetails.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/RepoDetails/RepoDetails.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="repositoryReducer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/repository/repositoryReducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" selection-start-line="4" selection-end-line="4" selection-end-column="4" />
+            <state relative-caret-position="365">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actionsTypes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/actionsTypes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -250,13 +145,13 @@
         <option value="$PROJECT_DIR$/pages/index.js" />
         <option value="$PROJECT_DIR$/store/actionsTypes.js" />
         <option value="$PROJECT_DIR$/store/repository/repositoryReducer.js" />
-        <option value="$PROJECT_DIR$/store/user/userAction.js" />
         <option value="$PROJECT_DIR$/components/RepoDetails/RepoDetails.js" />
         <option value="$PROJECT_DIR$/components/Search/Search.test.js" />
-        <option value="$PROJECT_DIR$/store/repository/repositoryAction.js" />
         <option value="$PROJECT_DIR$/pages/commits.js" />
         <option value="$PROJECT_DIR$/components/Search/Search.js" />
         <option value="$PROJECT_DIR$/components/Search/Search.story.js" />
+        <option value="$PROJECT_DIR$/store/user/userAction.js" />
+        <option value="$PROJECT_DIR$/store/repository/repositoryAction.js" />
       </list>
     </option>
   </component>
@@ -463,12 +358,12 @@
       <workItem from="1550943580823" duration="1286000" />
       <workItem from="1550946742111" duration="34822000" />
       <workItem from="1551019771667" duration="22569000" />
-      <workItem from="1551047323897" duration="20478000" />
+      <workItem from="1551047323897" duration="21616000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80285000" />
+    <option name="totallyTimeSpent" value="81423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -948,36 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/store/repository/repositoryAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="31" selection-start-line="31" selection-end-line="32" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/user/userAction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/apiRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -997,10 +862,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/components/Search/Search.story.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="6" lean-forward="true" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/user/userAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/repository/repositoryAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

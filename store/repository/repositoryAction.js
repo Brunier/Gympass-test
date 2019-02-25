@@ -10,9 +10,7 @@ export function getCommits(commitUrl, callback, page, oldCommits) {
         const request = axios({
             method: 'GET',
             url: `${commitUrl}?page=${page}&per_page=20`,
-            headers: {
-                "Authorization": "token 73a555b6a8eb86e8786f42c8d8ca6912dbb8f597"
-            }
+            headers: []
         });
 
         dispatch(setErrorSearch(""));
@@ -50,7 +48,6 @@ export function getCommitsSearch(userName, repoName, callback, page, valueSearch
             url:getCommitsSearchApi(userName, repoName, page, valueSearch) ,
             headers: {
                 "Accept": "application/vnd.github.cloak-preview",
-                "Authorization": "token 73a555b6a8eb86e8786f42c8d8ca6912dbb8f597"
             }
         });
 
