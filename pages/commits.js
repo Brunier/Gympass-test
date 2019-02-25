@@ -3,6 +3,7 @@ import Page from '../components/Page/page';
 import React from 'react';
 import {bindActionCreators} from 'redux';
 import * as repoAction from '../store/repository/repositoryAction'
+import * as userAction from '../store/user/userAction'
 import InfiniteScroll from 'react-infinite-scroller';
 import RepoDetails from "../components/RepoDetails/RepoDetails"
 import Loading from "../components/Loading/Loading"
@@ -87,7 +88,13 @@ export class CommitsPage extends React.Component {
 
         return this.props.repo.commits ? (
             <div>
-                <Back onClick={() => Router.push('/repos')} />
+                <Back onClick={() => {
+                    this.props.actions.user.getRepos(this.props.user.name, () => {
+                        setTimeout(() => {
+                            Router.push('/repos');
+                        },1000)
+                    })
+                }} />
                 <RepoDetails repo={this.props.repo.repository}/>
 
                 <Search btnText={"Procurar Commits"} placeholder={"Termo"}
@@ -130,7 +137,8 @@ function mapStateToProps(state, ownProps) {
 function mapDispatchToProps(dispatch) {
     return {
         actions: {
-            repo: bindActionCreators(repoAction, dispatch)
+            repo: bindActionCreators(repoAction, dispatch),
+            user: bindActionCreators(userAction, dispatch)
         }
     };
 }

@@ -34,8 +34,8 @@ const Container = styled.div`
 
     render() {
         return(
-            <Container onClick={this.props.onClick}>
-                <TextTitle padding={"5px 10% 5px 5px"}>{this.props.repo.name}</TextTitle>
+            <Container data-cy="repo" onClick={this.props.onClick}>
+                <TextTitle data-cy="repo-title" padding={"5px 10% 5px 5px"}>{this.props.repo.name}</TextTitle>
                 <TextParagraph height={96}>{this.props.repo.description}</TextParagraph>
                 <Text bold={true} fontSize={14}>{moment(this.props.repo.updated_at).format('llll')}</Text>
                 <Text bold={true} fontSize={14}> - </Text>

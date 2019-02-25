@@ -6,10 +6,12 @@ exports[`Search Test Suite Snapshot 1`] = `
 >
   <div
     className="sc-bxivhb jmszxS"
+    data-cy="repo"
     onClick={[Function]}
   >
     <h1
       className="sc-htpNat dkRyfk"
+      data-cy="repo-title"
     >
       mindbody-api
     </h1>
@@ -40,10 +42,12 @@ exports[`Search Test Suite Snapshot 1`] = `
   </div>
   <div
     className="sc-bxivhb jmszxS"
+    data-cy="repo"
     onClick={[Function]}
   >
     <h1
       className="sc-htpNat dkRyfk"
+      data-cy="repo-title"
     >
       rails-intl-tel-input
     </h1>
@@ -74,10 +78,12 @@ exports[`Search Test Suite Snapshot 1`] = `
   </div>
   <div
     className="sc-bxivhb jmszxS"
+    data-cy="repo"
     onClick={[Function]}
   >
     <h1
       className="sc-htpNat dkRyfk"
+      data-cy="repo-title"
     >
       devise
     </h1>
@@ -108,10 +114,12 @@ exports[`Search Test Suite Snapshot 1`] = `
   </div>
   <div
     className="sc-bxivhb jmszxS"
+    data-cy="repo"
     onClick={[Function]}
   >
     <h1
       className="sc-htpNat dkRyfk"
+      data-cy="repo-title"
     >
       AvaTax-REST-V2-Ruby-SDK
     </h1>

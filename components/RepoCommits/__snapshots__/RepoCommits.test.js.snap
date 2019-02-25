@@ -4,6 +4,7 @@ exports[`RepoCommits Test Suite Snapshot 1`] = `
 <div>
   <div
     className="sc-bxivhb bqVlmP"
+    data-cy="commit"
   >
     <div>
       <h1
@@ -19,6 +20,7 @@ exports[`RepoCommits Test Suite Snapshot 1`] = `
       </h1>
       <p
         className="sc-htpNat jewUiJ"
+        data-cy="commit-msg"
         height={120}
       >
         Workaround empty child
@@ -47,6 +49,7 @@ exports[`RepoCommits Test Suite Snapshot 1`] = `
   </div>
   <div
     className="sc-bxivhb bqVlmP"
+    data-cy="commit"
   >
     <div>
       <h1
@@ -62,6 +65,7 @@ exports[`RepoCommits Test Suite Snapshot 1`] = `
       </h1>
       <p
         className="sc-htpNat jewUiJ"
+        data-cy="commit-msg"
         height={120}
       >
         Merge pull request #100 from nesc58/masteFix: Text elements / transform + clipPath attribute added

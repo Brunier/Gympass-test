@@ -25,10 +25,10 @@ export class Commit extends React.Component {
 
     render() {
         return(
-            <Container>
+            <Container data-cy={"commit"}>
                 <div>
                     <TextTitle maxWidth={"100%"} fontSize={18}><a href={this.props.commit.url} target="_blank">{this.props.commit.sha}</a></TextTitle>
-                    <TextParagraph maxHeight={120} height={120}>
+                    <TextParagraph data-cy={"commit-msg"} maxHeight={120} height={120}>
                         {this.props.commit.commit.message}
                     </TextParagraph>
                 </div>

@@ -11,10 +11,12 @@ exports[`Search Test Suite Snapshot 1`] = `
       
       <input
         autoFocus={true}
+        data-cy="search-input"
         onChange={[Function]}
       />
       <button
         className="sc-htpNat nPeio"
+        data-cy="button"
         disabled={true}
         type="submit"
       />

@@ -16,7 +16,7 @@ export class FilterRepo extends Component {
         return(
             <Container>
                 <Text>Filtrar por: </Text>
-                <select onChange={(event) => {
+                <select data-cy="filter" onChange={(event) => {
                     console.log(event.target.value.split("-"))
                     this.props.filter(event.target.value.split("-"))
                 }}>

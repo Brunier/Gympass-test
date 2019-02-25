@@ -3,9 +3,11 @@
 exports[`Search Test Suite Snapshot 1`] = `
 <div
   className="sc-bxivhb jmszxS"
+  data-cy="repo"
 >
   <h1
     className="sc-bdVaJa eiPDuz"
+    data-cy="repo-title"
   >
     interview-test
   </h1>

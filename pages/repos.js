@@ -55,7 +55,7 @@ export class ReposPage extends React.Component {
                     <Back onClick={() => Router.push('/')} />
                     <UserDetails user={this.props.user} />
                     <FilterRepo filter={this.filter}/>
-                    <UserRepos repos={this.props.user.repos} repositorySelect={this.repositorySelect}/>
+                    <UserRepos repos={this.props.user.repos} repositorySelect={this.repositorySelect} />
                 </div>
             )
         } else {

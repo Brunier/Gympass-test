@@ -3,6 +3,7 @@
 exports[`Commit Test Suite Snapshot 1`] = `
 <div
   className="sc-bxivhb bqVlmP"
+  data-cy="commit"
 >
   <div>
     <h1
@@ -18,6 +19,7 @@ exports[`Commit Test Suite Snapshot 1`] = `
     </h1>
     <p
       className="sc-htpNat jewUiJ"
+      data-cy="commit-msg"
       height={120}
     >
       Workaround empty child

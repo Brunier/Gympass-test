@@ -60,7 +60,7 @@ class Search extends React.Component {
                 <form onSubmit={this.onFormSubmit}>
                     <div>
                         {this.props.label ? <label>{this.props.label}</label> : ""}
-                        <input autoFocus placeholder={this.props.placeholder} onChange={this.onChange}/>
+                        <input data-cy={"search-input"} autoFocus placeholder={this.props.placeholder} onChange={this.onChange}/>
                         {
                             !this.props.loading ?
                                 <Button type="submit" text={this.props.btnText} disabled={this.props.disabled !== undefined ? this.props.disabled : !this.state.item} />
@@ -68,7 +68,7 @@ class Search extends React.Component {
 
                         }
                     </div>
-                    {this.props.error ? <TextError>{this.props.error}</TextError> : ""}
+                    {this.props.error ? <TextError data-cy={"search-error"}>{this.props.error}</TextError> : ""}
                 </form>
                </Container>
 
