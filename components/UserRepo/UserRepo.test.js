@@ -16,7 +16,7 @@ function setup(props) {
 
 const repo = mock;
 
-describe('UserSearch Test Suite', () => {
+describe('Search Test Suite', () => {
     it('Titulo', () => {
         const { wrapper } = setup({repo});
         expect(wrapper.find(TextTitle).text()).toBe(repo.name);

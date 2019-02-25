@@ -15,7 +15,7 @@ function setup(props) {
 
 const repos = mock.data;
 
-describe('UserSearch Test Suite', () => {
+describe('Search Test Suite', () => {
     it('Verificar a quantidade de UserRepo', () => {
         const { wrapper } = setup({repos});
         expect(wrapper.find(UserRepo)).toHaveLength(repos.length);

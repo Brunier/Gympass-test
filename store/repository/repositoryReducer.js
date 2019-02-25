@@ -4,7 +4,9 @@ import Immutable from 'seamless-immutable';
 
 const initialState = Immutable({
     repository: "",
-    commits: ""
+    commits: "",
+    loadingSearch: false,
+    errorSearch: ""
 });
 
 export default function connectorsReducer(state = initialState, action) {
@@ -17,6 +19,16 @@ export default function connectorsReducer(state = initialState, action) {
         case types.SET_COMMITS:
             return state.merge({
                 commits: action.loadData
+            });
+
+        case types.LOAD_SEARCH_COMMIT:
+            return state.merge({
+                loadingSearch: action.loadData
+            });
+
+        case types.ERROR_SEARCH_COMMIT:
+            return state.merge({
+                errorSearch: action.loadData
             });
 
         default:

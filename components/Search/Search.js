@@ -5,7 +5,7 @@ import Loading from '../Loading/Loading';
 import Button from '../Button/Button'
 
 let Container = styled.div`
-  margin-top: 1%;
+  margin-top:  ${props => props.marginTop ? props.marginTop + "px" : "1%"};
   text-align: center;
   color: #585656;
   
@@ -13,11 +13,10 @@ let Container = styled.div`
     padding: 10px 10px 10px 0;
     width: 15%;
     height: 27px;
-    border: none;
     font-size: 23px;
     background-color: #fff;
     border: 2px solid #00757E;
-    border-left: none;
+    border-left: ${props => props.label ? "none" : "2px solid #00757E"};
     color: #585656;
   }
   
@@ -27,38 +26,44 @@ let Container = styled.div`
     width: 110px;
     height: 23px;
     display: inline-block;
-    border: none;
     font-size: 23px;
     border: 2px solid #00757E;
-    border-right: none;
+    border-right: ${props => props.label ? "none" : "2px solid #00757E"};
   }
 `
 
 
-class UserSearch extends React.Component {
+class Search extends React.Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            userName: null
+            item: null
         }
     }
 
     onFormSubmit = (e) =>  {
         e.preventDefault();
-        this.props.setUser(this.state.userName);
+        this.props.onClick(this.state.item);
+    };
+
+    onChange = (event) => {
+        this.setState({item: event.target.value})
+        if(event.target.value === "" && this.props.onClean) {
+            this.props.onClean();
+        }
     }
 
     render() {
         return(
-            <Container>
+            <Container label={this.props.label} marginTop={this.props.marginTop}>
                 <form onSubmit={this.onFormSubmit}>
                     <div>
-                        <label>Github.com/</label>
-                        <input autoFocus placeholder={"Gympass"} onChange={event => this.setState({userName: event.target.value})}/>
+                        {this.props.label ? <label>{this.props.label}</label> : ""}
+                        <input autoFocus placeholder={this.props.placeholder} onChange={this.onChange}/>
                         {
                             !this.props.loading ?
-                                <Button type="submit" text={"Procurar Repositórios"} disabled={!this.state.userName} />
+                                <Button type="submit" text={this.props.btnText} disabled={this.props.disabled !== undefined ? this.props.disabled : !this.state.item} />
                                 : <Loading width={30} left={"2%"} display={"inline"} img={this.props.imgLoading}/>
 
                         }
@@ -72,5 +77,5 @@ class UserSearch extends React.Component {
 }
 
 
-export default UserSearch;
+export default Search;
 

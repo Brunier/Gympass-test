@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a16b5281-e726-4138-ad6f-ce545660f33b" name="Default" comment="" />
+    <list default="true" id="a16b5281-e726-4138-ad6f-ce545660f33b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/RepoDetails/RepoDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/RepoDetails/RepoDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Search/__snapshots__/UserSearch.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UserRepo/UserRepo.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserRepo/UserRepo.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UserRepo/__snapshots__/UserRepo.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserRepo/__snapshots__/UserRepo.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UserRepos/UserRepos.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserRepos/UserRepos.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UserRepos/__snapshots__/UserRepos.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/components/UserRepos/__snapshots__/UserRepos.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UserSearch/UserSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UserSearch/UserSearch.story.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.story.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/UserSearch/UserSearch.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search/Search.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/commits.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/commits.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/actionsTypes.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/actionsTypes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/repository/repositoryAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/repository/repositoryAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/repository/repositoryReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/repository/repositoryReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/user/userAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/user/userAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/apiRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/apiRoutes.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,11 +32,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserSearch.story.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/components/UserSearch/UserSearch.story.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+            <state relative-caret-position="465">
+              <caret line="31" column="31" selection-start-line="31" selection-end-line="32" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Search.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/Search/Search.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="repositoryAction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/repository/repositoryAction.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Search.story.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/Search/Search.story.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -26,11 +80,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserSearch.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/UserSearch/UserSearch.js">
+      <file leaf-file-name="userAction.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/user/userAction.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+            <state relative-caret-position="165">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="apiRoutes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/apiRoutes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commits.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/commits.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepoDetails.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/RepoDetails/RepoDetails.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="repositoryReducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/repository/repositoryReducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="4" selection-start-line="4" selection-end-line="4" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actionsTypes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/store/actionsTypes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -46,13 +157,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getRepos</find>
-      <find>Olá</find>
-      <find>updated_at</find>
-      <find>value</find>
-      <find>value={}</find>
-      <find>margin</find>
-      <find>reposOrderByNumber</find>
       <find>getUser</find>
       <find>canInstrument</find>
       <find>setupTestFrameworkScriptFile</find>
@@ -76,6 +180,13 @@
       <find>getInitialProps</find>
       <find>Router</find>
       <find>props.</find>
+      <find>userName</find>
+      <find>getCommitsSearch</find>
+      <find>UserSearch</find>
+      <find>loadMoreItems</find>
+      <find>this.state.page</find>
+      <find>Lang</find>
+      <find>console</find>
     </findStrings>
     <replaceStrings>
       <replace>user</replace>
@@ -85,26 +196,20 @@
       <replace>ReportDetails</replace>
       <replace>UserRepos</replace>
       <replace>userError</replace>
+      <replace>Search</replace>
+      <replace>item</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/components/TextTitle/TextTitle.js" />
-        <option value="$PROJECT_DIR$/components/LoadingIndex/LoadingIndex.js" />
-        <option value="$PROJECT_DIR$/components/Commit/Commit.js" />
-        <option value="$PROJECT_DIR$/components/RepoDetails/RepoDetails.js" />
-        <option value="$PROJECT_DIR$/store/actionsTypes.js" />
-        <option value="$PROJECT_DIR$/store/user/userReducer.js" />
-        <option value="$PROJECT_DIR$/store/user/userAction.js" />
-        <option value="$PROJECT_DIR$/components/UserSearch/UserSearch.test.js" />
-        <option value="$PROJECT_DIR$/components/RepoCommits/RepoCommits.js" />
         <option value="$PROJECT_DIR$/pages/_app.js" />
         <option value="$PROJECT_DIR$/components/FilterRepo/FilterRepo.js" />
         <option value="$PROJECT_DIR$/components/Back/Back.js" />
         <option value="$PROJECT_DIR$/pages/repos.js" />
-        <option value="$PROJECT_DIR$/pages/commits.js" />
-        <option value="$PROJECT_DIR$/pages/index.js" />
         <option value="$PROJECT_DIR$/components/UserRepo/UserRepo.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.storybook/config.js" />
@@ -139,8 +244,19 @@
         <option value="$PROJECT_DIR$/components/UserRepos/UserRepos.story.js" />
         <option value="$PROJECT_DIR$/components/UserDetails/UserDetails.story.js" />
         <option value="$PROJECT_DIR$/components/UserRepos/UserRepos.test.js" />
-        <option value="$PROJECT_DIR$/components/UserSearch/UserSearch.js" />
         <option value="$PROJECT_DIR$/components/UserSearch/UserSearch.story.js" />
+        <option value="$PROJECT_DIR$/utils/apiRoutes.js" />
+        <option value="$PROJECT_DIR$/components/UserSearch/UserSearch.js" />
+        <option value="$PROJECT_DIR$/pages/index.js" />
+        <option value="$PROJECT_DIR$/store/actionsTypes.js" />
+        <option value="$PROJECT_DIR$/store/repository/repositoryReducer.js" />
+        <option value="$PROJECT_DIR$/store/user/userAction.js" />
+        <option value="$PROJECT_DIR$/components/RepoDetails/RepoDetails.js" />
+        <option value="$PROJECT_DIR$/components/Search/Search.test.js" />
+        <option value="$PROJECT_DIR$/store/repository/repositoryAction.js" />
+        <option value="$PROJECT_DIR$/pages/commits.js" />
+        <option value="$PROJECT_DIR$/components/Search/Search.js" />
+        <option value="$PROJECT_DIR$/components/Search/Search.story.js" />
       </list>
     </option>
   </component>
@@ -164,6 +280,9 @@
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -216,6 +335,12 @@
               <item name="gympass-github" type="b2602c69:ProjectViewProjectNode" />
               <item name="gympass-github" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gympass-github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gympass-github" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Text" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -259,12 +384,6 @@
               <item name="gympass-github" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="UserRepos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="gympass-github" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gympass-github" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="UserSearch" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gympass-github" type="b2602c69:ProjectViewProjectNode" />
@@ -344,12 +463,12 @@
       <workItem from="1550943580823" duration="1286000" />
       <workItem from="1550946742111" duration="34822000" />
       <workItem from="1551019771667" duration="22569000" />
-      <workItem from="1551047323897" duration="11932000" />
+      <workItem from="1551047323897" duration="20478000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71739000" />
+    <option name="totallyTimeSpent" value="80285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
@@ -360,7 +479,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3278272" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -374,6 +493,26 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3278272" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -387,80 +526,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.storybook/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Back/Back.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/repos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-508">
-          <caret line="10" column="11" selection-start-line="10" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Backgroud/Background.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/BackgroundIndex/BackgroundIndex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Backgroud/Background.story.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Page/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/Back/Back.story.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/Button/Button.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -619,16 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/RepoDetails/RepoDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="113" selection-start-line="27" selection-start-column="113" selection-end-line="27" selection-end-column="113" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,15 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/UserSearch/UserSearch.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/UserRepos/UserRepos.story.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -848,17 +894,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/UserSearch/UserSearch.js">
+    <entry file="file://$PROJECT_DIR$/components/Search/Search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        <state relative-caret-position="468">
+          <caret line="65" column="29" lean-forward="true" selection-start-line="65" selection-end-line="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/UserSearch/UserSearch.story.js">
+    <entry file="file://$PROJECT_DIR$/components/Search/Search.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        <state relative-caret-position="137">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/RepoDetails/RepoDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/repository/repositoryReducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/actionsTypes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Search/Search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/repository/repositoryAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="31" selection-start-line="31" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/user/userAction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/apiRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="78" selection-start-line="4" selection-start-column="78" selection-end-line="4" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/commits.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/Search/Search.story.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

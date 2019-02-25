@@ -3,27 +3,38 @@ import { shallow } from 'enzyme';
 import TextError from '../TextError/TextError';
 import Loading from '../Loading/Loading';
 import renderer from 'react-test-renderer'
+import Button from '../Button/Button'
 
 // Components
-import UserSearch from './UserSearch';
+import Search from './Search';
 
 function setup(props) {
-    const wrapper = shallow(<UserSearch {...props} />);
+    const wrapper = shallow(<Search {...props} />);
     return { wrapper };
 }
 
-describe('UserSearch Test Suite', () => {
+describe('Search Test Suite', () => {
     it('Com nome vazio, o botão tem que estar desabilitado', () => {
         const { wrapper } = setup();
-        wrapper.setState({ userName: '' });
+        wrapper.setState({ item: '' });
         //expect(wrapper.find('button').exists()).toBe(true);
-        expect(wrapper.find('button').prop("disabled")).toBe(true);
+        expect(wrapper.find(Button).prop("disabled")).toBe(true);
     });
     it('Com nome, o botão tem que estar habilitado', () => {
         const { wrapper } = setup();
-        wrapper.setState({ userName: 'gympass' });
+        wrapper.setState({ item: 'gympass' });
         //expect(wrapper.find('button').exists()).toBe(true);
-        expect(wrapper.find('button').prop("disabled")).toBe(false);
+        expect(wrapper.find(Button).prop("disabled")).toBe(false);
+    });
+    it('Botão desabilitado', () => {
+        const { wrapper } = setup({disabled: true});
+        //expect(wrapper.find('button').exists()).toBe(true);
+        expect(wrapper.find(Button).prop("disabled")).toBe(true);
+    });
+    it('Botão habilitado', () => {
+        const { wrapper } = setup({disabled: false});
+        //expect(wrapper.find('button').exists()).toBe(true);
+        expect(wrapper.find(Button).prop("disabled")).toBe(false);
     });
     it('Mostrar mensagem de erro', () => {
         const { wrapper } = setup({error: true});
@@ -42,7 +53,7 @@ describe('UserSearch Test Suite', () => {
         expect(wrapper.find(Loading).exists()).toBe(false);
     });
     it('Snapshot', () => {
-        const tree = renderer.create(<UserSearch />).toJSON();
+        const tree = renderer.create(<Search />).toJSON();
         expect(tree).toMatchSnapshot();
     })
 });

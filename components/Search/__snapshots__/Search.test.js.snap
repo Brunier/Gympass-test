@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Test Suite Snapshot 1`] = `
+<div
+  className="sc-bxivhb emWzRi"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <div>
+      
+      <input
+        autoFocus={true}
+        onChange={[Function]}
+      />
+      <button
+        className="sc-htpNat nPeio"
+        disabled={true}
+        type="submit"
+      />
+    </div>
+    
+  </form>
+</div>
+`;

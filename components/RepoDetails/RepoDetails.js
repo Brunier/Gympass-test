@@ -33,7 +33,7 @@ export class ReportDetails extends React.Component {
                     <div>
                         <Text fontSize={16} bold={true}>{moment(this.props.repo.updated_at).format('llll')}</Text>
                         <Text fontSize={16} bold={true}> - </Text>
-                        <Text fontSize={16} bold={true}>{this.props.repo.language}</Text>
+                        <Text fontSize={16} bold={true}>{this.props.repo.language ? this.props.repo.language :  "Nenhuma"}</Text>
                     </div>
 
                 </div>
