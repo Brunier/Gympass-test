@@ -11,7 +11,7 @@
  `npm run dev`
  
  E ir para url
- `localhost:3000`
+ `http://localhost:3000`
 
 ## Testes
  Para iniciar os testes, executar o comando
