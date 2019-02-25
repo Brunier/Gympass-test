@@ -9,6 +9,9 @@
  
  E iniciar o projeto
  `npm run dev`
+ 
+ Ir para url
+ `localhost:3000`
 
 ## Testes
  Para iniciar os testes, executar o comando
